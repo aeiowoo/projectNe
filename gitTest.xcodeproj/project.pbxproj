@@ -13,6 +13,7 @@
 		7C590E7315E27D9E00797702 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C590E7115E27D9E00797702 /* InfoPlist.strings */; };
 		7C590E7515E27D9E00797702 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C590E7415E27D9E00797702 /* main.m */; };
 		7C590E7915E27D9E00797702 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C590E7815E27D9E00797702 /* AppDelegate.m */; };
+		7C590E8115E2A86E00797702 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C590E8015E2A86E00797702 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		7C590E6815E27D9E00797702 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C590E6A15E27D9E00797702 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7C590E6C15E27D9E00797702 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7C590E7015E27D9E00797702 /* gitTest-Info.plist */ = {isa = PBXFileReference; path = "gitTest-Info.plist"; sourceTree = "<group>"; };
+		7C590E7015E27D9E00797702 /* gitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gitTest-Info.plist"; sourceTree = "<group>"; };
 		7C590E7215E27D9E00797702 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C590E7415E27D9E00797702 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7C590E7615E27D9E00797702 /* gitTest-Prefix.pch */ = {isa = PBXFileReference; path = "gitTest-Prefix.pch"; sourceTree = "<group>"; };
-		7C590E7715E27D9E00797702 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C590E7615E27D9E00797702 /* gitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitTest-Prefix.pch"; sourceTree = "<group>"; };
+		7C590E7715E27D9E00797702 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7C590E7815E27D9E00797702 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C590E7F15E2A86E00797702 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		7C590E8015E2A86E00797702 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				7C590E7715E27D9E00797702 /* AppDelegate.h */,
 				7C590E7815E27D9E00797702 /* AppDelegate.m */,
 				7C590E6F15E27D9E00797702 /* Supporting Files */,
+				7C590E7F15E2A86E00797702 /* test.h */,
+				7C590E8015E2A86E00797702 /* test.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			files = (
 				7C590E7515E27D9E00797702 /* main.m in Sources */,
 				7C590E7915E27D9E00797702 /* AppDelegate.m in Sources */,
+				7C590E8115E2A86E00797702 /* test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
